@@ -15,6 +15,7 @@ Developer @GA in NYC
      -moz-box-sizing: border-box; /* Firexfox */
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
      box-sizing: border-box; /* IE */
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Clear fix hack */
@@ -65,6 +66,7 @@ h2{
   font-weight: 900;
   font-size: 14px;
   border-radius: 5px;
+  background-color: #f9e42e;
 }
 
 
@@ -74,14 +76,43 @@ h2{
 
 /* Center the container */
 #container {
-  width: 100%;
+  width: 80%;
   margin: auto;
   height: 500px;
 
 }
+#benefits{
+  background-color: #f0efef;
+  height:500px;
+
+}
+h3{
+  font-weight: 500;
+  font-size: 20px;
+  color: #033048;
+}
+h4{
+  font-weight: 700;
+  font-size: 18px;
+}
+ul{
+  font-weight: lighter;
+  font-size: 13px;
+}
+#review{
+  height:500px;
+}
+#pFoot{
+    font-weight: lighter;
+  font-style: italic;
+  float: right;
+  clear: both;
+  }
+
 
 header {
-
+height:500px;
+color: white;
 }
 
 footer {
